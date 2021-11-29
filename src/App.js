@@ -36,9 +36,9 @@ function App() {
     <div className="relative max-w-screen max-h-screen">
       <section
         ref={mapContainer}
-        className="fixed w-screen h-screen max-w-screen max-h-screen"
+        className="fixed w-screen h-screen max-w-screen max-h-screen shadow-md hover:shadow-lg ring-2 ring-purple-400 hover:ring-purple-700"
       />
-      <section className="fixed z-50 top-0 left-0 px-4 py-2">
+      <section className="fixed z-50 top-0 left-0 p-4">
         <img
           src={destinatarioIcon}
           alt="src"
